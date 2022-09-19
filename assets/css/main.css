@@ -148,16 +148,20 @@ a:hover {
   border: 0px;
 }
 
-@media (min-width: 3840px) {
-}
-
-@media (min-width: 2560px) {
-}
-
 @media (min-width: 1920px) {
-  a {
-    font-size: 80px !important;
-  }
+}
+
+@media (min-width: 1440px) {
+}
+
+@media (min-width: 720px) {
+}
+
+@media (min-width: 375px) {
+}
+
+
+@media (min-width: 360px) {
 }
 
 @media (max-width: 991px) {
