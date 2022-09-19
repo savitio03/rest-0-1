@@ -145,14 +145,13 @@ a:hover {
   color: -webkit-linear-gradient(to top, #603813, #b29f94) !important;
   color: linear-gradient(to top, #603813, #b29f94) !important;
   letter-spacing: 3px;
+  border: 0px;
 }
-
 
 @media (min-width: 3840px) {
 }
 
 @media (min-width: 2560px) {
-
 }
 
 @media (min-width: 1920px) {
