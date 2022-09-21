@@ -11,3 +11,9 @@ git commit -m "{{mensaje}}"
 git push origin main
 
 750: padding se elimina a la mitad.
+
+(min-width: 576px)
+(min-width: 768px)
+(min-width: 992px)
+(min-width: 1200px)
+(min-width: 1400px)

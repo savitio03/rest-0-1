@@ -1,0 +1,59 @@
+/* MENU ARTICLE */
+
+#menu-foods {
+  background-color: var(--back-color-article) !important;
+  padding: 50px 0px !important;
+}
+#menu-foods h2 {
+  text-align: center;
+  border: none;
+  font-size: 30px !important;
+  letter-spacing: 20px;
+}
+
+#menu-foods h2:hover {
+  letter-spacing: 30px;
+}
+
+#menu-foods li {
+  padding: 30px 15px;
+}
+
+#menu-foods li a {
+  font-size: 17px !important;
+  text-transform: uppercase;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--main-color) !important;
+  background-color: #7e7d45 !important;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+}
+.tab-content {
+  padding: var(--margin-padding-0-15);
+}
+
+.tab-pane {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.tab-content .card {
+  width: 300px;
+  border: none !important;
+  margin-bottom: 20px;
+}
+
+.tab-content .card .card-body h3 {
+  font-size: 30px !important;
+}
+
+.tab-content .card .card-body h4 {
+  font-size: 25px !important;
+}

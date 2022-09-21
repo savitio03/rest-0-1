@@ -1,0 +1,90 @@
+/* GALLERY ARTICLE */
+#gallery h2 {
+  border: none;
+  font-size: 20px !important;
+  letter-spacing: 20px;
+}
+
+#gallery h2:hover {
+  letter-spacing: 30px;
+}
+
+.portfolio-menu {
+  text-align: center;
+}
+
+.portfolio-menu .active {
+  background-color: var(--main-color);
+}
+
+.portfolio-menu ul {
+  padding: 0px !important;
+}
+
+.btn-gallery {
+  border: 1px solid var(--main-color) !important;
+  transition: all 0.5s !important;
+  text-transform: uppercase;
+  margin-bottom: 10px !important;
+}
+
+.btn-gallery:hover {
+  background-color: var(--main-color);
+}
+
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item {
+  width: 100%;
+}
+
+.portfolio-item .item {
+  /*width:303px;*/
+  /* float: left; */
+  margin-bottom: 10px;
+}
+
+.portfolio-item .item a .img-fluid {
+  border-radius: 10px;
+  width: 600px !important;
+}
+@media (max-width: 290px) {
+  #gallery h2 {
+    font-size: 11px !important;
+  }
+}
+
+@media (min-width: 291px) and (max-width: 600px) {
+  #gallery h2 {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1300px) {
+  #gallery h2 {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1500px) {
+  #gallery h2 {
+    font-size: 35px !important;
+  }
+}
+
+@media (min-width: 1501px) {
+  #gallery h2 {
+    font-size: 45px !important;
+  }
+
+  #gallery .container .btn-gallery {
+    font-size: 28px !important;
+  }
+}
