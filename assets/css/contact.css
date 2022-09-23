@@ -12,7 +12,7 @@
   border-radius: 10px;
 }
 
-#contact .col-4 {
+.contactContainer {
   background-color: var(--main-color);
   border-radius: 10px;
   border: 1px solid black;
@@ -54,13 +54,8 @@
   margin-right: 15px;
 }
 
-@media (min-width: 576px) {
-}
-@media (min-width: 768px) {
-}
-@media (min-width: 992px) {
-}
-@media (min-width: 1200px) {
-}
-@media (min-width: 1400px) {
+@media (max-width: 576px) {
+  #contact-info li{
+    font-size: 15px !important;
+  }
 }
